@@ -1,0 +1,76 @@
+
+ROM used: 4682 (29%)
+          4682 (29%) including unused fragments
+
+          3 Average locations per line
+          8 Average locations per statement
+
+RAM used: 33 (4%) at main() level
+          54 (7%) worst case
+
+Stack used: 7 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  173    65  11  bernadete3kg_2017_beta.c
+  439     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18f4431.h
+  344   172  29  sumo3kg_library.c
+   53     0   0  sumo3kg_library.h
+  560   348  59  strategies.c
+   55     0   0  strategies.h
+----- -----
+ 1624   585 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     38   0   1             @delay_ms1
+0     20   0   1   145  3.1  Configura_Timer0
+0     26   0   1   134  3.0  Configura_Timer1
+0     64   1   1   461  3.3  Habilita_Motores
+0     28   0   0    86  1.3  Portas_IO
+0     38   0   0    32  1.0  Configura_AD
+0    268   3   5   430  5.0  Motor_esq
+0     54   1   2             @ITOF
+0    242   3  11             @MULFF
+0     56   1   4             @SFTOI
+0    268   3   5   430  5.0  Motor_dir
+0    188   2   5   662  4.4  MoverMotores
+0    172   2   5   729  7.3  Leitura
+0     50   1   0             @goto10166
+0    416   4   2  2550  7.9  Seta_Sensores
+0     54   1   1   212  4.0  timer0_isr
+0     36   0   1   134  3.4  timer1_isr
+0    518   6   2  2205  8.4  Conquistador
+0    420   4   2  1721  7.9  Busca_Ofensiva
+0    394   4   2  1680  7.9  Basica
+0    494   5   2  2025  7.9  Arco_Frente_Ofensiva
+0     34   0   2   112  3.0  Inicializa
+0    152   2   0   648  5.7  Seleciona_Estrategia
+0    124   1   1   801  5.2  rda_isr
+0     42   0   0             @goto10930
+0     32   0   0             @const131
+0     34   0   2             @PSTRINGC_9600_31766_31767
+0    202   2   1   808  4.6  MAIN
+0     48   1   0   783  7.2  @const135
+
+Program metrics:
+    Functions               21
+    Statements              585
+    Comments                233
+    Volume (V)              27086
+    Difficilty (D)          105.9
+    Effort to implement (E) 2868601
+    Time to implement (T)   44 hours, 16 minutes
+    Est Delivered Bugs (B)  7
+    Cyclomatic Complexity   137
+    Maintainability (MI)    33
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000AC   166  0  
+000AE-03FFE  4512  11698  
+
+
+
