@@ -1,5 +1,0 @@
->>> Warning 203 "C:\Users\Nícolas\Desktop\Robótica\Programação\2017\Modificações - Programa Lobo + Bernadete\Versão Final - Lobo + Bernadete\sumo3kg_library.c" Line 46(1,1): Condition always TRUE
->>> Warning 203 "C:\Users\Nícolas\Desktop\Robótica\Programação\2017\Modificações - Programa Lobo + Bernadete\Versão Final - Lobo + Bernadete\sumo3kg_library.c" Line 55(1,1): Condition always TRUE
->>> Warning 216 "bernadete3kg_2017_beta.c" Line 174(0,1): Interrupts disabled during call to prevent re-entrancy:  (@PSTRINGC_9600_31766_31767)
-      Memory usage:   ROM=29%      RAM=4% - 7%
-      0 Errors,  3 Warnings.
